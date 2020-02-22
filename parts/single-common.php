@@ -40,7 +40,7 @@
             ) ); ?>
                 <?php
                 else :
-                    _e('Sorry, no posts matched your criteria.', 'textdomain');
+                    _e('Sorry, no posts matched your criteria.', 'tiendas');
                 endif;
                 ?>
             </div>

@@ -3,7 +3,7 @@
 /* styles and scripts */
 function theme_styles()
 {
-    wp_enqueue_style('base-style', get_stylesheet_uri(), array());
+    wp_enqueue_style('tiendas-style', get_stylesheet_uri(), array());
     wp_enqueue_style('bs-css', get_template_directory_uri() . '/css/bootstrap.css', array());
     wp_enqueue_style('fa-css', get_template_directory_uri() . '/fontawesome/css/all.min.css', array());
     wp_enqueue_style('slick-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array());

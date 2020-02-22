@@ -1,7 +1,7 @@
 <?php
 
 //menu
-function genosha_menus() {
+function matecito_menus() {
     register_nav_menus(
       array(
         'header-menu' => __( 'Header Menu' ),
@@ -11,4 +11,4 @@ function genosha_menus() {
       )
     );
   }
-add_action( 'init', 'genosha_menus' );
+add_action( 'init', 'matecito_menus' );
